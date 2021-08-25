@@ -12,7 +12,7 @@ class CfgPatches
 
 class CfgFunctions
 {
-	class POD_Module
+	class POD
 	{
 		class Effects
 		{

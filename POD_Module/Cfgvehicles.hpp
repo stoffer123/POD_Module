@@ -11,7 +11,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "POD Module Test";
 		category = "Effects";
-		function = "POD_Module_fnc_Module";
+		function = "POD_fnc_Module";
 		functionpriority = 1;
 		isGlobal = 0;
 		is3DEN = 0;
