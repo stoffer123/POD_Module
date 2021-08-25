@@ -1,24 +1,9 @@
 class CfgVehicles
 {
+
 	class Logic;
-	class Module_F: Logic
-	{
-		class AttributesBase
-		{
-			class Default;
-			class Edit;					// Default edit box (i.e., text input field)
-			class Combo;				// Default combo box (i.e., drop-down menu)
-			class Checkbox;				// Default checkbox (returned value is Boolean)
-			class CheckboxNumber;		// Default checkbox (returned value is Number)
-			class ModuleDescription;	// Module description
-			class Units;				// Selection of units on which the module is applied
-		};
-		// Description base classes, for more information see below
-		class ModuleDescription
-		{
-			class AnyBrain;
-		};
-	};
+	class Module_F: Logic {};
+	
 	
 	class POD_Module: Module_F
 	{
@@ -29,7 +14,6 @@ class CfgVehicles
 		function = "POD_Module_fnc_Module";
 		functionpriority = 1;
 		isGlobal = 0;
-		isTriggerActivated = 1;
 		is3DEN = 0;
 		
 	};	
