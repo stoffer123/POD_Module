@@ -7,7 +7,7 @@ if (_activated) then
 
 	_sound = "POD_Sounds_Test";
 	_soundSource = objnull;
-	while {!isnull _logic} do 
+	while {!isnull _logic} do
 	{
 		waituntil 
 		{
