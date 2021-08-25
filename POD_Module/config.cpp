@@ -17,7 +17,7 @@ class CfgFunctions
 		class Effects
 		{
 			file="\POD_Module\POD_Module\functions";
-			class POD_fnc_Module
+			class Module
 			{
 			};
 		};
