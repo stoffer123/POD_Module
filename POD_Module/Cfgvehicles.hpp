@@ -30,7 +30,6 @@ class CfgVehicles
 		functionpriority = 1;
 		isGlobal = 0;
 		isTriggerActivated = 1;
-		isDisposable = 2;
 		is3DEN = 0;
 		
 	};	
